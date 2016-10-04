@@ -7,13 +7,13 @@ namespace iPodcastSearch
 
     public interface IPodcastSearchClient
     {
-        Task<IList<Podcast>> GetPodcastsAsync(string query);
+        Task<IList<Podcast>> SearchPodcastsAsync(string query);
 
-        Task<IList<Podcast>> GetPodcastsAsync(string query, int resultLimit);
+        Task<IList<Podcast>> SearchPodcastsAsync(string query, int resultLimit);
 
-        Task<IList<Podcast>> GetPodcastsAsync(string query, int resultLimit, string countryCode);
+        Task<IList<Podcast>> SearchPodcastsAsync(string query, int resultLimit, string countryCode);
 
-        Task<Podcast> GetPodcastByIdAsync(long podcastId);
+        Task<Podcast> GetPodcastByIdAsync(long podcastId, bool includeEpisodes = false);
 
         Task<IList<PodcastEpisode>> GetPodcastEpisodesAsync(string feedUrl);
 

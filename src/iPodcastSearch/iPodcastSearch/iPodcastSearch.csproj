@@ -37,16 +37,18 @@
     <!-- A reference to the entire .NET Framework is automatically included -->
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="FeedParser.cs" />
+    <Compile Include="PodcastFeedParser.cs" />
     <Compile Include="HttpUtility.cs" />
     <Compile Include="IPodcastSearchClient.cs" />
+    <Compile Include="iTunesExtensions.cs" />
     <Compile Include="iTunesSearchClient.cs" />
     <Compile Include="JsonHelper.cs" />
-    <Compile Include="Models\iTunesPodcast.cs" />
+    <Compile Include="Models\iTunes\iTunesPodcast.cs" />
     <Compile Include="Models\Podcast.cs" />
     <Compile Include="Models\PodcastEpisode.cs" />
-    <Compile Include="Models\PodcastListResult.cs" />
+    <Compile Include="Models\iTunes\iTunesSearchResult.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="XElementExtensions.cs" />
     <Compile Include="XmlHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />

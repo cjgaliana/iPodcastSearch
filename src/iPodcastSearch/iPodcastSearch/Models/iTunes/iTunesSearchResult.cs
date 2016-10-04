@@ -1,4 +1,4 @@
-﻿namespace iPodcastSearch.Models
+﻿namespace iPodcastSearch.Models.iTunes
 {
     using System.Collections.Generic;
     using System.Runtime.Serialization;
@@ -10,6 +10,6 @@
         public int Count { get; set; }
 
         [DataMember(Name = "results")]
-        public List<Podcast> Podcasts { get; set; }
+        public List<iTunesPodcast> Podcasts { get; set; }
     }
 }

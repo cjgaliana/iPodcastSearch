@@ -51,6 +51,7 @@
   </Choose>
   <ItemGroup>
     <Compile Include="iTunesSearchClientTests.cs" />
+    <Compile Include="PodcastFeedParserTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -58,6 +59,12 @@
       <Project>{00f83222-ea5c-4895-a4b8-81192349b75c}</Project>
       <Name>iPodcastSearch</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="PodcastFeedTests\JustInTimeFeed.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">

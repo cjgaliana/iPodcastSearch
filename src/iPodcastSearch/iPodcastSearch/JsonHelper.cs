@@ -1,9 +1,8 @@
-﻿using System.Text;
-
-namespace iPodcastSearch
+﻿namespace iPodcastSearch
 {
     using System.IO;
     using System.Runtime.Serialization.Json;
+    using System.Text;
 
     public static class JsonHelper
     {
@@ -22,12 +21,6 @@ namespace iPodcastSearch
             }
         }
 
-        /// <summary>
-        /// Deserializes the JSON string to the given type
-        /// </summary>
-        /// <typeparam name="T"></typeparam>
-        /// <param name="objString"></param>
-        /// <returns></returns>
         public static T Deserialize<T>(string objString)
         {
             using (var stream = new MemoryStream(Encoding.Unicode.GetBytes(objString)))

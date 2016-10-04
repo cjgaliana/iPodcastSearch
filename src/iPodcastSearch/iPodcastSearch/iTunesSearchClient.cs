@@ -5,6 +5,7 @@
     using System.Net.Http;
     using System.Threading.Tasks;
     using iPodcastSearch.Models;
+    using iPodcastSearch.Models.iTunes;
 
     public class iTunesSearchClient : IPodcastSearchClient
     {
@@ -19,32 +20,24 @@
         private readonly string _baseSearchUrl = "https://itunes.apple.com/search?{0}";
 
         private readonly string defaultLang = "us";
+        private readonly int defaultResultLimit = 100;
 
-        public Task<IList<Podcast>> GetPodcastsAsync(string query)
+
+        public Task<IList<Podcast>> SearchPodcastsAsync(string query)
         {
-            return this.GetPodcastsAsync(query, 100, this.defaultLang);
+            return this.SearchPodcastsAsync(query, this.defaultResultLimit, this.defaultLang);
         }
 
-        public Task<IList<Podcast>> GetPodcastsAsync(string query, int resultLimit)
+        public Task<IList<Podcast>> SearchPodcastsAsync(string query, int resultLimit)
         {
-            return this.GetPodcastsAsync(query, resultLimit, this.defaultLang);
+            return this.SearchPodcastsAsync(query, resultLimit, this.defaultLang);
         }
 
-        /// <summary>
-        ///     Get a list of episodes for a given Podcast
-        /// </summary>
-        /// <param name="podcast">The Podcast name to search for</param>
-        /// <param name="resultLimit">Limit the result count to this number</param>
-        /// <param name="countryCode">
-        ///     The two-letter country ISO code for the store you want to search.
-        ///     See http://en.wikipedia.org/wiki/%20ISO_3166-1_alpha-2 for a list of ISO country codes
-        /// </param>
-        /// <returns></returns>
-        public async Task<IList<Podcast>> GetPodcastsAsync(string podcast, int resultLimit, string countryCode)
+        public async Task<IList<Podcast>> SearchPodcastsAsync(string query, int resultLimit, string countryCode)
         {
             var nvc = HttpUtility.ParseQueryString(string.Empty);
 
-            nvc.Add("term", podcast);
+            nvc.Add("term", query);
             nvc.Add("media", "podcast");
             nvc.Add("attribute", "titleTerm");
             nvc.Add("limit", resultLimit.ToString());
@@ -56,10 +49,13 @@
             //  Get the list of episodes
             var result = await this.MakeAPICall<PodcastListResult>(apiUrl);
 
-            return result.Podcasts;
+            // Map data
+            var podcasts = result.Podcasts.Select(x => x.ToPodcast()).ToList();
+
+            return podcasts;
         }
 
-        public async Task<Podcast> GetPodcastByIdAsync(long podcastId)
+        public async Task<Podcast> GetPodcastByIdAsync(long podcastId, bool includeEpisodes = false)
         {
             var nvc = HttpUtility.ParseQueryString(string.Empty);
 
@@ -71,21 +67,28 @@
 
             //  Get the list of podcasts
             var result = await this.MakeAPICall<PodcastListResult>(apiUrl);
-            return result.Podcasts.FirstOrDefault();
+            var itunesPodcast = result.Podcasts.FirstOrDefault();
+
+            var podcast = itunesPodcast?.ToPodcast();
+
+            if ((podcast != null) && includeEpisodes)
+            {
+                podcast.Episodes = await this.GetPodcastEpisodesAsync(podcast.FeedUrl);
+                podcast.EpisodeCount = podcast.Episodes.Count;
+            }
+
+            return podcast;
         }
 
         public async Task<IList<PodcastEpisode>> GetPodcastEpisodesAsync(string feedUrl)
         {
-            var podcast = await FeedParser.LoadFeedAsync(feedUrl);
+            var podcast = await PodcastFeedParser.LoadFeedAsync(feedUrl);
             return podcast.Episodes;
         }
 
         public async Task<Podcast> GetPodcastFromFeedUrlAsyc(string feedUrl)
         {
-            var client = new HttpClient();
-            var xmlString = await client.GetStringAsync(feedUrl);
-
-            var podcast = FeedParser.ParseFeed(xmlString);
+            var podcast = await PodcastFeedParser.LoadFeedAsync(feedUrl);
             return podcast;
         }
 

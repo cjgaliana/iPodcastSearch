@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="http://jitpodcast.com/wp-content/plugins/seriously-simple-podcasting/templates/feed-stylesheet.xsl"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+	xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+	>
+	<channel>
+		<title>Just in Time Podcast</title>
+		<atom:link href="http://jitpodcast.com/feed/podcast" rel="self" type="application/rss+xml" />
+		<link>http://jitpodcast.com/</link>
+		<description>Podcast sobre desarrollo de software: desarrollo movil, buenas practicas, lenguajes y desvarios varios</description>
+		<lastBuildDate>Fri, 02 Sep 2016 09:37:53 +0000</lastBuildDate>
+		<language>es-ES</language>
+		<copyright>© 2016 Just in Time Podcast</copyright>
+		<itunes:subtitle>Podcast sobre desarrollo de software</itunes:subtitle>
+		<itunes:author>JIT Podcast</itunes:author>
+		<googleplay:author>JIT Podcast</googleplay:author>
+		<googleplay:email>jitpodcast@gmail.com</googleplay:email>
+		<itunes:summary>Podcast sobre desarrollo de software: desarrollo movil, buenas practicas, lenguajes y desvarios varios</itunes:summary>
+		<googleplay:description>Podcast sobre desarrollo de software: desarrollo movil, buenas practicas, lenguajes y desvarios varios</googleplay:description>
+		<itunes:owner>
+			<itunes:name>Just in Time Podcast</itunes:name>
+			<itunes:email>jitpodcast@gmail.com</itunes:email>
+		</itunes:owner>
+		<itunes:explicit>clean</itunes:explicit>
+		<googleplay:explicit>No</googleplay:explicit>
+		<itunes:image href="http://jitpodcast.com/wp-content/uploads/2016/09/iTunesLogo.png"></itunes:image>
+		<googleplay:image href="http://jitpodcast.com/wp-content/uploads/2016/09/iTunesLogo.png"></googleplay:image>
+		<image>
+			<url>http://jitpodcast.com/wp-content/uploads/2016/09/iTunesLogo.png</url>
+			<title>Just in Time Podcast</title>
+			<link>http://jitpodcast.com/</link>
+		</image>
+		<itunes:category text="Technology">
+			<itunes:category text="Podcasting"></itunes:category>
+		</itunes:category>
+		<itunes:category text="Technology">
+			<itunes:category text="Software How-To"></itunes:category>
+		</itunes:category>
+		<itunes:category text="Games &amp; Hobbies">
+			<itunes:category text="Podcasting"></itunes:category>
+		</itunes:category>
+		<generator>https://wordpress.org/?v=4.6.1</generator>
+		<site xmlns="com-wordpress:feed-additions:1">114106640</site>
+		<item>
+			<title>Episodio 0 &#8211; Bletchley park</title>
+			<link>http://jitpodcast.com/podcast/episodio-0-bletchley-park/</link>
+			<pubDate>Thu, 01 Sep 2016 21:45:31 +0000</pubDate>
+			<dc:creator>cjgaliana</dc:creator>
+			<guid isPermaLink="false">http://jitpodcast.com/?post_type=podcast&#038;p=311</guid>
+			<description>
+				<![CDATA[Bletchley Park, la maquina Enigma y como Alan Turing y sus colegas consiguieron descifrar los mensajes alemanes.]]>
+			</description>
+			<itunes:subtitle>
+				<![CDATA[Bletchley Park, la maquina Enigma y como Alan Turing y sus colegas consiguieron descifrar los mensajes alemanes.]]>
+			</itunes:subtitle>
+			<content:encoded>
+				<![CDATA[<p>1 de septiembre: se acaban las vacaciones y nosotros arrancamos el Podcast con un episodio acerca de Bletchley Park, la maquina Enigma y como Alan Turing y sus colegas consiguieron descifrar los mensajes alemanes.</p><p>Aqui podeis escuchar el primer episodio:<br /></p><p>Algunas notas sobre el capitulo:</p><ul><li>Bletchley Park: <a href="https://www.bletchleypark.org.uk">https://www.bletchleypark.org.uk</a></li><li>How Enigma Works: <a href="https://www.youtube.com/watch?v=G2_Q9FoD-oQ">https://www.youtube.com/watch?v=G2_Q9FoD-oQ</a></li><li>The flaw in the Enigma Machine: <a href="https://www.youtube.com/watch?v=V4V2bpZlqx8">https://www.youtube.com/watch?v=V4V2bpZlqx8</a></li></ul><p>No olvides dejarnos tu feedback y compartir el podcast.</p><p>Un saludo!</p>
+]]>
+			</content:encoded>
+			<itunes:summary>
+				<![CDATA[<p>1 de septiembre: se acaban las vacaciones y nosotros arrancamos el Podcast con un episodio acerca de Bletchley Park, la maquina Enigma y como Alan Turing y sus colegas consiguieron descifrar los mensajes alemanes.</p><p>Aqui podeis escuchar el primer episodio:<br /></p><p>Algunas notas sobre el capitulo:</p><ul><li>Bletchley Park: <a href="https://www.bletchleypark.org.uk">https://www.bletchleypark.org.uk</a></li><li>How Enigma Works: <a href="https://www.youtube.com/watch?v=G2_Q9FoD-oQ">https://www.youtube.com/watch?v=G2_Q9FoD-oQ</a></li><li>The flaw in the Enigma Machine: <a href="https://www.youtube.com/watch?v=V4V2bpZlqx8">https://www.youtube.com/watch?v=V4V2bpZlqx8</a></li></ul><p>No olvides dejarnos tu feedback y compartir el podcast.</p><p>Un saludo!</p>
+]]>
+			</itunes:summary>
+			<googleplay:description>
+				<![CDATA[<p>1 de septiembre: se acaban las vacaciones y nosotros arrancamos el Podcast con un episodio acerca de Bletchley Park, la maquina Enigma y como Alan Turing y sus colegas consiguieron descifrar los mensajes alemanes.</p><p>Aqui podeis escuchar el primer episodio:<br /></p><p>Algunas notas sobre el capitulo:</p><ul><li>Bletchley Park: <a href="https://www.bletchleypark.org.uk">https://www.bletchleypark.org.uk</a></li><li>How Enigma Works: <a href="https://www.youtube.com/watch?v=G2_Q9FoD-oQ">https://www.youtube.com/watch?v=G2_Q9FoD-oQ</a></li><li>The flaw in the Enigma Machine: <a href="https://www.youtube.com/watch?v=V4V2bpZlqx8">https://www.youtube.com/watch?v=V4V2bpZlqx8</a></li></ul><p>No olvides dejarnos tu feedback y compartir el podcast.</p><p>Un saludo!</p>
+]]>
+			</googleplay:description>
+			<enclosure url="http://jitpodcast.com/podcast-download/311/episodio-0-bletchley-park.mp3" length="35243826" type="audio/mpeg"></enclosure>
+			<itunes:explicit>clean</itunes:explicit>
+			<googleplay:explicit>No</googleplay:explicit>
+			<itunes:block>no</itunes:block>
+			<googleplay:block>no</googleplay:block>
+			<itunes:duration>24:28</itunes:duration>
+			<itunes:author>cjgaliana</itunes:author>
+		</item>
+	</channel>
+</rss>
