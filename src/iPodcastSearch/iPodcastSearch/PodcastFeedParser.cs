@@ -51,11 +51,11 @@
                     // More info http://lists.apple.com/archives/syndication-dev/2005/Nov/msg00002.html#_Toc526931684
                     var isExplicit = item.IsExplicit();
 
-                    var image = item.GetStringFromItunes("image");
+                    var image = item.GetImageUrl();
                     var duration = item.GetStringFromItunes("duration");
 
                     var website = item.GetString("link");
-                    var pubDate = item.GetDateTime("pubDate");
+                    var pubDate = item.GetString("pubDate");
 
                     var summary = item.GetStringFromItunes("summary");
 
@@ -78,7 +78,7 @@
                                      IsExplicit = isExplicit,
                                      Image = image,
                                      Link = website,
-                                     PubDate = pubDate,
+                                     PubDate = pubDate.ToDateTime(),
                                      Subtitle = subtitle,
                                      Summary = summary,
                                      Duration = duration

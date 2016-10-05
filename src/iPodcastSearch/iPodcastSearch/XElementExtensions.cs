@@ -53,7 +53,7 @@
             return defaultValue;
         }
 
-        public static DateTime GetDateTime(this XElement xElement, string name)
+        public static DateTime GetAndroidDateTime(this XElement xElement, string name)
         {
             var dateTime = DateTime.MinValue;
             var element = xElement.Element(googleplayNamespace + name);
@@ -82,9 +82,8 @@
                     }
                 }
             }
-            return "";
+            return string.Empty;
         }
-
 
         public static string GetImageUrl(this XElement channel)
         {
@@ -92,6 +91,18 @@
             var itunesImage = channel.GetStringFromItunes("image");
             if (!string.IsNullOrWhiteSpace(itunesImage))
             {
+                return itunesImage;
+            }
+
+            // Get from iTunes using Href
+            var itunesImageHref = channel.Element(itunesNamespace + "image");
+            if (itunesImageHref != null)
+            {
+                var url = itunesImageHref.ExtractAttribute("href");
+                if (!string.IsNullOrWhiteSpace(url))
+                {
+                    return url;
+                }
                 return itunesImage;
             }
 

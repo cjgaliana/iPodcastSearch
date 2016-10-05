@@ -1,0 +1,571 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+  <channel>
+    <title>Nación Lumpen</title>
+    <link>http://www.spreaker.com/user/nacionlumpen</link>
+    <description>El podcast de unos irreductibles programadores.</description>
+    <atom:link href="http://www.spreaker.com/user/8241695/episodes/feed" rel="self" type="application/rss+xml"></atom:link>
+    <language>es</language>
+    <copyright>Copyright Nación Lumpen</copyright>
+    <image>
+      <url>http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d01cf394fd32ea12e86296d3614b59c5.jpg</url>
+      <title>Nación Lumpen</title>
+      <link>http://www.spreaker.com/user/nacionlumpen</link>
+    </image>
+    <itunes:author>Nación Lumpen</itunes:author>
+    <itunes:owner>
+      <itunes:name>Nación Lumpen</itunes:name>
+      <itunes:email>feeds@spreaker.com</itunes:email>
+    </itunes:owner>
+    <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d01cf394fd32ea12e86296d3614b59c5.jpg"/>
+    <itunes:subtitle>El podcast de unos irreductibles programadores.</itunes:subtitle>
+    <itunes:summary>El podcast de unos irreductibles programadores.</itunes:summary>
+    <itunes:category text="Society &amp; Culture"></itunes:category>
+    <itunes:explicit>clean</itunes:explicit>
+    <item>
+      <title>NL10: programación funcional</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl10-programacion-funcional</link>
+      <description>
+        Aprovechando el marco incomparable que nos ofrecía la Lambda World nos propusimos hablar sobre programación funcional con unos invitados excepcionales: Alfonso García-Caro, autor de Fable (compilador de F# a JS) y Alex Serrano, autor de Beginning Haskel. Con ellos, varios de los clásicos miembros de NL: Álvaro Castellanos presentando, Sebastián Ortega con un resfriado que debería haberle hecho quedarse en casa y Álvaro Polo, todavía adaptándose a su reciente fama como Alvarote.
+
+        Seguir leyendo en http://www.nacionlumpen.com/podcast/2016/10/02/NL10_progfun.html
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/9557347</guid>
+      <pubDate>Mon, 03 Oct 2016 21:37:05 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/9557347/nl10_progfun.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>Aprovechando el marco incomparable que nos ofrecía la Lambda World nos propusimos hablar sobre programación funcional con unos invitados excepcionales: Alfonso García-Caro, autor de Fable (compilador de F# a JS) y Alex Serrano, autor de Beginning...</itunes:subtitle>
+      <itunes:summary>
+        Aprovechando el marco incomparable que nos ofrecía la Lambda World nos propusimos hablar sobre programación funcional con unos invitados excepcionales: Alfonso García-Caro, autor de Fable (compilador de F# a JS) y Alex Serrano, autor de Beginning Haskel. Con ellos, varios de los clásicos miembros de NL: Álvaro Castellanos presentando, Sebastián Ortega con un resfriado que debería haberle hecho quedarse en casa y Álvaro Polo, todavía adaptándose a su reciente fama como Alvarote.
+
+        Seguir leyendo en http://www.nacionlumpen.com/podcast/2016/10/02/NL10_progfun.html
+      </itunes:summary>
+      <itunes:duration>3319</itunes:duration>
+      <itunes:keywords>fp,nacion-lumpen,programacion-funcional</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0d3a54bc5d795761083205300bf53d74.jpg"/>
+    </item>
+    <item>
+      <title>NL9: Saliendo del fango (parte 2)</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl9-saliendo-del-fango-parte-2</link>
+      <description>Segunda parte de nuestra charla sobre Out of the Tar Pit</description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/8576357</guid>
+      <pubDate>Sun, 22 May 2016 10:46:37 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/8576357/nl9_saliendo_del_fango_parte_2.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>Segunda parte de nuestra charla sobre Out of the Tar Pit</itunes:subtitle>
+      <itunes:summary>Segunda parte de nuestra charla sobre Out of the Tar Pit</itunes:summary>
+      <itunes:duration>2668</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0d3a54bc5d795761083205300bf53d74.jpg"/>
+    </item>
+    <item>
+      <title>NL9: Saliendo del fango (parte1)</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl9-saliendo-del-fango</link>
+      <description>Discutimos sobre el paper de culto "Out of the Tar Pit" y sus ramificaciones.</description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/8576185</guid>
+      <pubDate>Sun, 22 May 2016 10:00:07 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/8576185/nl9_saliendo_del_fango_parte1.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>Discutimos sobre el paper de culto "Out of the Tar Pit" y sus ramificaciones.</itunes:subtitle>
+      <itunes:summary>Discutimos sobre el paper de culto "Out of the Tar Pit" y sus ramificaciones.</itunes:summary>
+      <itunes:duration>2635</itunes:duration>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0d3a54bc5d795761083205300bf53d74.jpg"/>
+    </item>
+    <item>
+      <title>NL8: asomándonos al desarrollo móvil</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl8-asomandonos-al-desarrollo-movil</link>
+      <description>
+        Hoy nos asomamos al desarrolo móvil de la mano de estos monstruos:
+        - Diego Freniche, @dfreniche
+        - Daniel Martín, @dmartincy
+        - Marcos Trujillo, @aracem
+        Presenta Álvaro Castellanos y hace bulto Sebastián Ortega, el pesado de siempre.
+
+        Dedicatoria a Nikola Tesla (Nicolás para Álvaro, sex-symbol para Freniche).
+
+        Enlaces:
+        Xamarin https://www.xamarin.com
+        Real Challenges in Mobile App Development http://www.ece.ubc.ca/~amesbah/docs/mona-esem13.pdf
+        iOS Human Interface Guidelines https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html
+        Kent Beck on short feedback loops. https://www.facebook.com/notes/kent-beck/shorter-feedback-is-not-always-bett/1097086386990891
+        Clojure on Android! http://clojure-android.info
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/8252983</guid>
+      <pubDate>Wed, 13 Apr 2016 20:53:52 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/8252983/nl8.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        Hoy nos asomamos al desarrolo móvil de la mano de estos monstruos:
+        - Diego Freniche, @dfreniche
+        - Daniel Martín, @dmartincy
+        - Marcos Trujillo, @aracem
+        Presenta Álvaro Castellanos y hace bulto Sebastián Ortega, el pesado de siempre.
+
+        Dedicatoria a...
+      </itunes:subtitle>
+      <itunes:summary>
+        Hoy nos asomamos al desarrolo móvil de la mano de estos monstruos:
+        - Diego Freniche, @dfreniche
+        - Daniel Martín, @dmartincy
+        - Marcos Trujillo, @aracem
+        Presenta Álvaro Castellanos y hace bulto Sebastián Ortega, el pesado de siempre.
+
+        Dedicatoria a Nikola Tesla (Nicolás para Álvaro, sex-symbol para Freniche).
+
+        Enlaces:
+        Xamarin https://www.xamarin.com
+        Real Challenges in Mobile App Development http://www.ece.ubc.ca/~amesbah/docs/mona-esem13.pdf
+        iOS Human Interface Guidelines https://developer.apple.com/library/ios/documentation/UserExperience/Conceptual/MobileHIG/index.html
+        Kent Beck on short feedback loops. https://www.facebook.com/notes/kent-beck/shorter-feedback-is-not-always-bett/1097086386990891
+        Clojure on Android! http://clojure-android.info
+      </itunes:summary>
+      <itunes:duration>5379</itunes:duration>
+      <itunes:keywords>mobile,development,nacion-lumpen</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0d3a54bc5d795761083205300bf53d74.jpg"/>
+    </item>
+    <item>
+      <title>NL7 - Bitcoin contado a los informáticos</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl7-bitcoin-contado-a-los-informa-ticos</link>
+      <description>
+        Episodio 7 del podcast en el damos una introducción a los aspectos técnicos de Bitcoin. Por una vez en la vida nos acordamos de recordar que tenemos cuenta en twitter y recordamos que esta web existe.
+
+        Dedicatoria a Whitfield Diffie y Martin Hellman por su trabajo sobre la criptografía de clave pública.
+
+        Participantes:
+
+        Jaume Pernas, @jaumepernas
+        Álvaro Castellanos, @AlvaroCaste
+        Sebastián Ortega, @_sortega
+
+        Enlaces y más información en http://www.nacionlumpen.com
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/7995691</guid>
+      <pubDate>Sun, 13 Mar 2016 20:05:23 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/7995691/nl7_bitcoin_2.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        Episodio 7 del podcast en el damos una introducción a los aspectos técnicos de Bitcoin. Por una vez en la vida nos acordamos de recordar que tenemos cuenta en twitter y recordamos que esta web existe.
+
+        Dedicatoria a Whitfield Diffie y Martin Hellman...
+      </itunes:subtitle>
+      <itunes:summary>
+        Episodio 7 del podcast en el damos una introducción a los aspectos técnicos de Bitcoin. Por una vez en la vida nos acordamos de recordar que tenemos cuenta en twitter y recordamos que esta web existe.
+
+        Dedicatoria a Whitfield Diffie y Martin Hellman por su trabajo sobre la criptografía de clave pública.
+
+        Participantes:
+
+        Jaume Pernas, @jaumepernas
+        Álvaro Castellanos, @AlvaroCaste
+        Sebastián Ortega, @_sortega
+
+        Enlaces y más información en http://www.nacionlumpen.com
+      </itunes:summary>
+      <itunes:duration>4560</itunes:duration>
+      <itunes:keywords>bitcoin,nacion-lumpen</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0d3a54bc5d795761083205300bf53d74.jpg"/>
+    </item>
+    <item>
+      <title>NL6: legacy code</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl6-legacy-code</link>
+      <description>
+        Yo... he visto cosas que vosotros no creeríais: ifs anidados hasta más allá de Orión. He visto clases C++ repletas de sleeps cerca de la Puerta de Tannhäuser. Todas esa deuda técnica se perderá... en el tiempo... como lágrimas en la lluvia. Es hora de refactorizar.
+
+        Participantes:
+        Sebastián Ortega, @_sortega.
+        Álvaro Castellanos, @AlvaroCaste
+        Óscar Pernas,
+        Kris Kovalik, @kkvlk
+
+        Enlaces:
+        Libro: “Working effectively with legacy code”, Michael Feathers. http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052
+        Artículo: “Working Effectively With Legacy Code Michael Feathers Object Mentor, Inc”
+        https://web.archive.org/web/20150213051804/http://www.objectmentor.com/resources/articles/WorkingEffectivelyWithLegacyCode.pdf
+        Libro: “Refactoring improving the design of existing code”, Martin Fowler.
+        http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672
+        Libro: “The Goal, Process of Ongoing Improvement”, Eliyahu M. Goldratt, http://www.amazon.es/The-Goal-Process-Ongoing-Improvement/dp/0884271951
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/7603855</guid>
+      <pubDate>Wed, 20 Jan 2016 21:15:01 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/7603855/nl6_legacy_code.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>Yo... he visto cosas que vosotros no creeríais: ifs anidados hasta más allá de Orión. He visto clases C++ repletas de sleeps cerca de la Puerta de Tannhäuser. Todas esa deuda técnica se perderá... en el tiempo... como lágrimas en la lluvia. Es hora de...</itunes:subtitle>
+      <itunes:summary>
+        Yo... he visto cosas que vosotros no creeríais: ifs anidados hasta más allá de Orión. He visto clases C++ repletas de sleeps cerca de la Puerta de Tannhäuser. Todas esa deuda técnica se perderá... en el tiempo... como lágrimas en la lluvia. Es hora de refactorizar.
+
+        Participantes:
+        Sebastián Ortega, @_sortega.
+        Álvaro Castellanos, @AlvaroCaste
+        Óscar Pernas,
+        Kris Kovalik, @kkvlk
+
+        Enlaces:
+        Libro: “Working effectively with legacy code”, Michael Feathers. http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052
+        Artículo: “Working Effectively With Legacy Code Michael Feathers Object Mentor, Inc”
+        https://web.archive.org/web/20150213051804/http://www.objectmentor.com/resources/articles/WorkingEffectivelyWithLegacyCode.pdf
+        Libro: “Refactoring improving the design of existing code”, Martin Fowler.
+        http://www.amazon.com/Refactoring-Improving-Design-Existing-Code/dp/0201485672
+        Libro: “The Goal, Process of Ongoing Improvement”, Eliyahu M. Goldratt, http://www.amazon.es/The-Goal-Process-Ongoing-Improvement/dp/0884271951
+      </itunes:summary>
+      <itunes:duration>4992</itunes:duration>
+      <itunes:keywords>nacion-lumpen,legacy-code</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/d635472b3ebf0357031f2553e916f0eb.jpg"/>
+    </item>
+    <item>
+      <title>NL5: Programar sin programar</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl5-programar-sin-programar</link>
+      <description>
+        En este capítulo hablamos sobre redes neuronales y sobre algoritmos genéticos con un par de invitados de lujo:
+        - José Francisco Calvo: un curioso de los comportamientos emergentes :)
+        - David Díaz: uno que estudia redes neuronales
+
+        Para saber más:
+        - (Libro) The Elements of Statistical Learning
+        - Deep Learning: http://deeplearning.net/
+        - (Libro) Adaptation in natural and artificial systems by John H. Holland
+        - (Libro) Introduction to Genetics Algorithms by Melanie Mitchell
+        - (Libro) El Relojero Ciego por Richard Dawkins
+        - (“La” gema) Genetica https://rubygems.org/gems/genetica/versions/0.0.1
+        - Evolution of Mona Lisa http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/
+        - Evolved antenna https://en.wikipedia.org/wiki/Evolved_antenna
+        - Genetic cars 2d: http://rednuht.org/genetic_cars_2/ (versión multiplayer http://gencar.co/)
+        - Otra version de lo mismo: http://boxcar2d.com/
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/7304743</guid>
+      <pubDate>Sat, 05 Dec 2015 17:14:46 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/7304743/programar_sin_programar.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        En este capítulo hablamos sobre redes neuronales y sobre algoritmos genéticos con un par de invitados de lujo:
+        - José Francisco Calvo: un curioso de los comportamientos emergentes :)
+        - David Díaz: uno que estudia redes neuronales
+
+        Para saber más:
+        -...
+      </itunes:subtitle>
+      <itunes:summary>
+        En este capítulo hablamos sobre redes neuronales y sobre algoritmos genéticos con un par de invitados de lujo:
+        - José Francisco Calvo: un curioso de los comportamientos emergentes :)
+        - David Díaz: uno que estudia redes neuronales
+
+        Para saber más:
+        - (Libro) The Elements of Statistical Learning
+        - Deep Learning: http://deeplearning.net/
+        - (Libro) Adaptation in natural and artificial systems by John H. Holland
+        - (Libro) Introduction to Genetics Algorithms by Melanie Mitchell
+        - (Libro) El Relojero Ciego por Richard Dawkins
+        - (“La” gema) Genetica https://rubygems.org/gems/genetica/versions/0.0.1
+        - Evolution of Mona Lisa http://rogeralsing.com/2008/12/07/genetic-programming-evolution-of-mona-lisa/
+        - Evolved antenna https://en.wikipedia.org/wiki/Evolved_antenna
+        - Genetic cars 2d: http://rednuht.org/genetic_cars_2/ (versión multiplayer http://gencar.co/)
+        - Otra version de lo mismo: http://boxcar2d.com/
+      </itunes:summary>
+      <itunes:duration>5738</itunes:duration>
+      <itunes:keywords>ann,nacionlumpen,geneticalgoritms</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0d3a54bc5d795761083205300bf53d74.jpg"/>
+    </item>
+    <item>
+      <title>NL4: TDD, "es posible que si"</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl4-tdd-es-posible-que-si</link>
+      <description>
+        Álvaro Castellanos conduce este capítulo sobre TDD. Invitados:
+        - Álvaro Polo @apolovald
+        - Sebastián Ortega @_sortega
+        - Luis Osa @logdc
+
+        Links:
+        - Integrated tests are a scam: https://www.youtube.com/watch?v=VDfX44fZoMc
+        - Kent Beck sobre el origen del TDD: https://www.quora.com/Why-does-Kent-Beck-refer-to-the-rediscovery-of-test-driven-development
+        - La novedosa técnica del TDD: http://www.javiergarzas.com/2015/07/utilizamos-la-novedosa-tecnica-de-tdd-novedosa-seguro.html
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/6704668</guid>
+      <pubDate>Tue, 29 Sep 2015 20:22:03 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/6704668/lumpen4_take2.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        Álvaro Castellanos conduce este capítulo sobre TDD. Invitados:
+        - Álvaro Polo @apolovald
+        - Sebastián Ortega @_sortega
+        - Luis Osa @logdc
+
+        Links:
+        - Integrated tests are a scam: https://www.youtube.com/watch?v=VDfX44fZoMc
+        - Kent Beck sobre el origen...
+      </itunes:subtitle>
+      <itunes:summary>
+        Álvaro Castellanos conduce este capítulo sobre TDD. Invitados:
+        - Álvaro Polo @apolovald
+        - Sebastián Ortega @_sortega
+        - Luis Osa @logdc
+
+        Links:
+        - Integrated tests are a scam: https://www.youtube.com/watch?v=VDfX44fZoMc
+        - Kent Beck sobre el origen del TDD: https://www.quora.com/Why-does-Kent-Beck-refer-to-the-rediscovery-of-test-driven-development
+        - La novedosa técnica del TDD: http://www.javiergarzas.com/2015/07/utilizamos-la-novedosa-tecnica-de-tdd-novedosa-seguro.html
+      </itunes:summary>
+      <itunes:duration>4274</itunes:duration>
+      <itunes:keywords>tdd,nacionlumpen</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/90a5b329331b083641cff7287af3ce38.jpg"/>
+    </item>
+    <item>
+      <title>NL3: La diáspora lumpen</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl3-la-diaspora-lumpen</link>
+      <description>
+        El tema de este capítulo 3 es trabajar en el extranjero.
+        Participantes:
+
+        * Vicente Ortega @elcarioco desde Irlanda
+        * Antonio F. Lancho @onioman desde Japón
+        * Mateu Adsuara @demonh3x desde Reino Unido
+        * José María Cabeza jcabeza desde Francia
+        * Sebastián Ortega @_sortega con la boina bien calada desde España
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/6649265</guid>
+      <pubDate>Sat, 19 Sep 2015 16:25:06 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/6649265/podcast3.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        El tema de este capítulo 3 es trabajar en el extranjero.
+        Participantes:
+
+        * Vicente Ortega @elcarioco desde Irlanda
+        * Antonio F. Lancho @onioman desde Japón
+        * Mateu Adsuara @demonh3x desde Reino Unido
+        * José María Cabeza jcabeza desde Francia
+        *...
+      </itunes:subtitle>
+      <itunes:summary>
+        El tema de este capítulo 3 es trabajar en el extranjero.
+        Participantes:
+
+        * Vicente Ortega @elcarioco desde Irlanda
+        * Antonio F. Lancho @onioman desde Japón
+        * Mateu Adsuara @demonh3x desde Reino Unido
+        * José María Cabeza jcabeza desde Francia
+        * Sebastián Ortega @_sortega con la boina bien calada desde España
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+      </itunes:summary>
+      <itunes:duration>5690</itunes:duration>
+      <itunes:keywords>lumpen,workabroad</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/c7dac446dc6b7f2a0f01af556dd9e01c.jpg"/>
+    </item>
+    <item>
+      <title>NL2 - Dinámico vs estático, ¿eterno empate?</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl2-dinamico-vs-estatico-eterno-empate</link>
+      <description>
+        Nación Lumpen capítulo 2: dinámico vs estático, ¿eterno empate?
+
+        Resucitamos un largo flame que tuvimos en la lista de correo hace un año sobre el tipado estático y el dinámico.
+
+        Participantes:
+        Álvaro Castellanos, @AlvaroCaste
+        Álvaro Polo, @apoloval
+        Salvador de la Puente, @salvadelapuente
+        Luis Osa, @logdc
+        Sebastián Ortega, @_sortega
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+
+        Enlaces:
+        * Álvaro explicando el modelo de ownership de Rust: http://typeinference.com/
+        * Church vs Curry types: http://www.lispcast.com/church-vs-curry-types
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/6434360</guid>
+      <pubDate>Sat, 01 Aug 2015 23:20:35 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/6434360/lumpenpodcast_2.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        Nación Lumpen capítulo 2: dinámico vs estático, ¿eterno empate?
+
+        Resucitamos un largo flame que tuvimos en la lista de correo hace un año sobre el tipado estático y el dinámico.
+
+        Participantes:
+        Álvaro Castellanos, @AlvaroCaste
+        Álvaro Polo, @apoloval...
+      </itunes:subtitle>
+      <itunes:summary>
+        Nación Lumpen capítulo 2: dinámico vs estático, ¿eterno empate?
+
+        Resucitamos un largo flame que tuvimos en la lista de correo hace un año sobre el tipado estático y el dinámico.
+
+        Participantes:
+        Álvaro Castellanos, @AlvaroCaste
+        Álvaro Polo, @apoloval
+        Salvador de la Puente, @salvadelapuente
+        Luis Osa, @logdc
+        Sebastián Ortega, @_sortega
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+
+        Enlaces:
+        * Álvaro explicando el modelo de ownership de Rust: http://typeinference.com/
+        * Church vs Curry types: http://www.lispcast.com/church-vs-curry-types
+      </itunes:summary>
+      <itunes:duration>5738</itunes:duration>
+      <itunes:keywords>languages,static,dynamic,nacion-lumpen</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/0d3a54bc5d795761083205300bf53d74.jpg"/>
+    </item>
+    <item>
+      <title>NL1 - Lo llaman kata y no lo es</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nl1-lo-llaman-kata-y-no-lo-es</link>
+      <description>
+        Nación Lumpen capítulo 1: lo llaman kata y no lo es
+
+        Continuamos con el tema de la formación y, entre divagación y divagación, pasamos a repasar lo aprendido cuando se propuso el problema de Gilded Rose en Nación Lumpen.
+
+        Participantes:
+        Álvaro Castellanos, @AlvaroCaste
+        Mateu Adsuara, @demonh3x
+        Sebastián Ortega, @_sortega
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+
+        Enlaces:
+
+        * Codemotion 2015 Madrid ya tiene abierta la inscripción. https://www.koliseo.com/codemotion/codemotion-madrid
+        * Sobre los clásicos, la charla de Bret Victor "The future of programming" https://vimeo.com/71278954
+        * Estilo K &amp; R, https://en.wikipedia.org/wiki/Indent_style#K.26R_style
+        * Papers we love Madrid, http://www.meetup.com/Papers-We-Love-Madrid/
+        * Entradas de blog sobre aprender leyendo http://sortega.github.io/development/2015/06/24/learning/ y sobre el golden master http://sortega.github.io/development/2015/05/28/conjuring_golden_master/
+        * Gilded Rose hecho entre Omar y yo con tests generativos, https://github.com/sortega/GildedRoseWithOmar
+        * Global code retreat event, http://coderetreat.org/
+        * Working Effectively with Legacy Code, Michael Feathers
+        http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/6369300</guid>
+      <pubDate>Sat, 18 Jul 2015 16:17:38 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/6369300/nacio_n_lumpen_podcast_nu_mero_1.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        Nación Lumpen capítulo 1: lo llaman kata y no lo es
+
+        Continuamos con el tema de la formación y, entre divagación y divagación, pasamos a repasar lo aprendido cuando se propuso el problema de Gilded Rose en Nación Lumpen.
+
+        Participantes:
+        Álvaro...
+      </itunes:subtitle>
+      <itunes:summary>
+        Nación Lumpen capítulo 1: lo llaman kata y no lo es
+
+        Continuamos con el tema de la formación y, entre divagación y divagación, pasamos a repasar lo aprendido cuando se propuso el problema de Gilded Rose en Nación Lumpen.
+
+        Participantes:
+        Álvaro Castellanos, @AlvaroCaste
+        Mateu Adsuara, @demonh3x
+        Sebastián Ortega, @_sortega
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+
+        Enlaces:
+
+        * Codemotion 2015 Madrid ya tiene abierta la inscripción. https://www.koliseo.com/codemotion/codemotion-madrid
+        * Sobre los clásicos, la charla de Bret Victor "The future of programming" https://vimeo.com/71278954
+        * Estilo K &amp; R, https://en.wikipedia.org/wiki/Indent_style#K.26R_style
+        * Papers we love Madrid, http://www.meetup.com/Papers-We-Love-Madrid/
+        * Entradas de blog sobre aprender leyendo http://sortega.github.io/development/2015/06/24/learning/ y sobre el golden master http://sortega.github.io/development/2015/05/28/conjuring_golden_master/
+        * Gilded Rose hecho entre Omar y yo con tests generativos, https://github.com/sortega/GildedRoseWithOmar
+        * Global code retreat event, http://coderetreat.org/
+        * Working Effectively with Legacy Code, Michael Feathers
+        http://www.amazon.com/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052
+      </itunes:summary>
+      <itunes:duration>3940</itunes:duration>
+      <itunes:keywords>aprendizaje,kata,nacion-lumpen,gilded-rose</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/90a5b329331b083641cff7287af3ce38.jpg"/>
+    </item>
+    <item>
+      <title>NL0 - Llamadme raro, pero programar...</title>
+      <link>http://www.spreaker.com/user/nacionlumpen/nacion-lumpen-capitulo-0</link>
+      <description>
+        Nación Lumpen capítulo 0: Llamadme raro, pero programar es divertido
+
+        En esta primera entrega hablamos sobre formación entre algunos de los miembro de Nación Lumpen, nuestra lista de correo de apasionados del desarrollo.
+
+        Participantes:
+        Álvaro Castellanos, @AlvaroCaste
+        Álvaro Polo, @apoloval
+        Mateu Adsuara, @demonh3x
+        Sebastián Ortega, @_sortega
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+
+        Enlaces:
+        * Peopleware, http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113
+        * Apprenticeship patterns, http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1435531386&amp;sr=1-1&amp;keywords=apprenticeship+patterns
+        * La definición de Kata de Dave Thomas, el tipo que introdujo el término entre nosotros. http://codekata.com/
+        * Principio de sustitución de Liskov: http://c2.com/cgi/wiki?LiskovSubstitutionPrinciple
+        * Modelo de actores: http://c2.com/cgi/wiki?ActorsModel
+        * Design patterns http://www.amazon.es/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_2?ie=UTF8&amp;qid=1435769534&amp;sr=8-2&amp;keywords=design+patterns
+        * Los hobbies tecnológicos de Álvaro Polo:
+        ** Un emulador y ensamblador correspondiente para SimProc, un microprocesador que yo mismo he inventado: https://github.com/apoloval/simproc
+        ** Una utilidad para procesar paquetes CAS de MSX: https://github.com/apoloval/mcp
+        ** Un Hello World usando ensamblador para MSX: https://github.com/apoloval/msx-sandbox
+        ** Librerías Arduino para construir un simulador de Airbus A320: https://github.com/apoloval/oac-arduino
+        ** Un componente para Flight Simulator que permite exportar datos: https://github.com/apoloval/flightvars
+        ** Un framework de simulación de sistemas de aviónica: https://github.com/apoloval/gwaihir
+        ** Un pequeño framework para desarrollar videojuegos de estrategia: https://github.com/apoloval/grog
+        ** Otro framework para videojuegos: https://github.com/apoloval/Karen
+        ** Un aborto de microkernel escrito en C++: https://github.com/apoloval/alderaan
+      </description>
+      <guid isPermaLink="false">http://api.spreaker.com/episode/6292774</guid>
+      <pubDate>Wed, 01 Jul 2015 07:44:49 +0000</pubDate>
+      <enclosure url="http://api.spreaker.com/download/episode/6292774/nacio_n_lumpen_llamadme_raro_pero_programar_es_divertido.mp3" length="0" type="audio/mpeg"></enclosure>
+      <itunes:author>Nación Lumpen</itunes:author>
+      <itunes:subtitle>
+        Nación Lumpen capítulo 0: Llamadme raro, pero programar es divertido
+
+        En esta primera entrega hablamos sobre formación entre algunos de los miembro de Nación Lumpen, nuestra lista de correo de apasionados del desarrollo.
+
+        Participantes:
+        Álvaro...
+      </itunes:subtitle>
+      <itunes:summary>
+        Nación Lumpen capítulo 0: Llamadme raro, pero programar es divertido
+
+        En esta primera entrega hablamos sobre formación entre algunos de los miembro de Nación Lumpen, nuestra lista de correo de apasionados del desarrollo.
+
+        Participantes:
+        Álvaro Castellanos, @AlvaroCaste
+        Álvaro Polo, @apoloval
+        Mateu Adsuara, @demonh3x
+        Sebastián Ortega, @_sortega
+
+        Música: Organic City https://soundcloud.com/msoundcollage
+
+        Enlaces:
+        * Peopleware, http://www.amazon.com/Peopleware-Productive-Projects-Teams-Edition/dp/0321934113
+        * Apprenticeship patterns, http://www.amazon.com/Apprenticeship-Patterns-Guidance-Aspiring-Craftsman/dp/0596518382/ref=sr_1_1?s=books&amp;ie=UTF8&amp;qid=1435531386&amp;sr=1-1&amp;keywords=apprenticeship+patterns
+        * La definición de Kata de Dave Thomas, el tipo que introdujo el término entre nosotros. http://codekata.com/
+        * Principio de sustitución de Liskov: http://c2.com/cgi/wiki?LiskovSubstitutionPrinciple
+        * Modelo de actores: http://c2.com/cgi/wiki?ActorsModel
+        * Design patterns http://www.amazon.es/Design-Patterns-Elements-Reusable-Object-Oriented/dp/0201633612/ref=sr_1_2?ie=UTF8&amp;qid=1435769534&amp;sr=8-2&amp;keywords=design+patterns
+        * Los hobbies tecnológicos de Álvaro Polo:
+        ** Un emulador y ensamblador correspondiente para SimProc, un microprocesador que yo mismo he inventado: https://github.com/apoloval/simproc
+        ** Una utilidad para procesar paquetes CAS de MSX: https://github.com/apoloval/mcp
+        ** Un Hello World usando ensamblador para MSX: https://github.com/apoloval/msx-sandbox
+        ** Librerías Arduino para construir un simulador de Airbus A320: https://github.com/apoloval/oac-arduino
+        ** Un componente para Flight Simulator que permite exportar datos: https://github.com/apoloval/flightvars
+        ** Un framework de simulación de sistemas de aviónica: https://github.com/apoloval/gwaihir
+        ** Un pequeño framework para desarrollar videojuegos de estrategia: https://github.com/apoloval/grog
+        ** Otro framework para videojuegos: https://github.com/apoloval/Karen
+        ** Un aborto de microkernel escrito en C++: https://github.com/apoloval/alderaan
+      </itunes:summary>
+      <itunes:duration>4149</itunes:duration>
+      <itunes:keywords>aprendizaje,nacion-lumpen</itunes:keywords>
+      <itunes:explicit>clean</itunes:explicit>
+      <itunes:image href="http://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/90a5b329331b083641cff7287af3ce38.jpg"/>
+    </item>
+  </channel>
+</rss>
