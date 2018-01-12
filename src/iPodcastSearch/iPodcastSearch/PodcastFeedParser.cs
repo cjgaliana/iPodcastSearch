@@ -29,6 +29,15 @@
 
             var podcast = ExtractPodcastMetadata(xmlRoot);
             var episodes = ExtractEpisodes(xmlRoot);
+
+            foreach (var episode in episodes)
+            {
+                if (string.IsNullOrWhiteSpace(episode.Image))
+                {
+                    episode.Image = podcast.Image;
+                }
+            }
+
             podcast.Episodes = episodes;
             podcast.EpisodeCount = episodes.Count;
 
@@ -47,6 +56,7 @@
                     var author = item.GetStringFromItunes("author");
 
                     var description = item.GetString("description");
+                    var guid = item.GetString("guid");
 
                     // More info http://lists.apple.com/archives/syndication-dev/2005/Nov/msg00002.html#_Toc526931684
                     var isExplicit = item.IsExplicit();
@@ -70,6 +80,7 @@
                     episodes.Add(new PodcastEpisode
                                  {
                                      Title = title,
+                                     Guid = guid,
                                      Author = author,
                                      Description = description,
                                      AudioFileUrl = audioUrl,

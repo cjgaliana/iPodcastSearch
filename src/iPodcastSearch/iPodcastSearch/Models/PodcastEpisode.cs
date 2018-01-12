@@ -6,6 +6,8 @@
     {
         public string Title { get; set; }
 
+        public string Guid { get; set; }
+
         public string Subtitle { get; set; }
 
         public string Author { get; set; }
@@ -27,6 +29,7 @@
         public string AudioFileSize { get; set; }
 
         public string AudioFileType { get; set; }
+
         public string Duration { get; set; }
     }
 }
